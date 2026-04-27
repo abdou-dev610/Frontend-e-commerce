@@ -1,5 +1,6 @@
 // API Client - Wrapper pour les appels au backend
 
+// Utilise localhost en développement local, Render en production
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 
 // 🔐 TOKEN MANAGEMENT
